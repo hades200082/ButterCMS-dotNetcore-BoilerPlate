@@ -5,7 +5,9 @@ A boilerplate .Net core 2.0 MVC application for use with [ButterCMS](https://but
 
 1. Clone/fork this repo
 2. Open the SLN file in Visual Studio 2017+
-3. Configure the appSettings.json (and appSettings.*.json) as required (make sure you at least enter your API key for ButterCMS)
+3. Configure the appSettings.json (and appSettings.*.json)
+    - ButterCMS API Token goes in the `ApiKey` property.
+    - `PrimaryAuthorSlug` is also required. This is usually defined as `<firstname>-<lastname>` from the relevant person's ButterCMS user account. It's also a good idea for the relevant user account to have a non-null "Profile Image URL" too since this is used within the layout.
 4. Run the project
 
 ## Contributing
